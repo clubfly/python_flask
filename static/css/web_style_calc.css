@@ -1,0 +1,41 @@
+@charset "utf-8";
+/******************************************************************************
+ * calc recognition checkout style                                            *
+ ******************************************************************************/
+.outer-frame-overflow-y > li {
+  height: 64px;
+  margin-bottom: 2px;
+}
+.outer-frame-position-r {
+  flex: 0.5 1 0%;
+}
+.button-wrapper{
+  width: 98%;
+  right: 5px;
+  text-align: center;
+}
+.button-wrapper button, .button-wrapper a, .button-wrapper-top button, .button-wrapper-top a{
+  width: 35%;
+  font-size: 16px;
+}
+.sku-image-style{
+  max-width: 50px;
+  max-height: 50px;
+}
+.num{
+  font-size: 16px;
+  font-weight: bold;
+}
+.sku-name-style{
+  font-size: 16px;
+  line-height: 24px;
+  display: -webkit-box;
+           -webkit-line-clamp: 2;
+           -webkit-box-orient: vertical;
+}
+.sku-price-style{
+  font-size: 16px;
+}
+.sku-total-style{
+  font-size: 24px;
+}

@@ -1,0 +1,6 @@
+* * * * * cd /opt/vcms && python3 crontabs.py embedding_detection >> /opt/vcms/log/detection.log
+* * * * * cd /opt/vcms && python3 crontabs.py embedding_feature >> /opt/vcms/log/feature.log
+0 1 * * * cd /opt/vcms && python3 crontabs.py pkl >> /opt/vcms/log/pkl.log
+30 * * * * cd /opt/vcms && python3 crontabs.py set_product_image >> /opt/vcms/log/images.log
+*/5 * * * * cd /opt/vcms && python3 crontabs.py csv_product >> /opt/vcms/log/csv_product.log
+#*/10 * * * * de /opt/vcms && python3 crontabs.py csv_image >> /opt/vcms/log/csv_image.log

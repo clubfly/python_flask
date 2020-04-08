@@ -1,0 +1,83 @@
+@charset "utf-8";
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
+  color: #666666;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -ms-overflow-style: scrollbar;
+}
+.bg-cube {
+  background: url(/static/image/bg-cube.jpg);
+}
+.bg-bakery {
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url(/static/image/bg-bakery.jpg);
+}
+.bg-product {
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url(/static/image/bg-product.png);
+}
+.bg-udon_noodles {
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url(/static/image/bg-udon_noodles.jpg);
+}
+
+/*-- loading START --*/
+#lds-dual-ring-wrapper{
+  background: rgba(0,0,0,.5);
+}
+.lds-dual-ring:after {
+  content: " ";
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+}
+.lds-span{
+  color: #fff;
+}
+
+/******************************************************************************
+ * Header Style START                                                         *
+ ******************************************************************************/
+
+
+/******************************************************************************
+ * Header Color START                                                         *
+ ******************************************************************************/
+
+
+/******************************************************************************
+ * Login Style START                                                          *
+ ******************************************************************************/
+
+
+/******************************************************************************
+ * Login Color START                                                          *
+ ******************************************************************************/
+
+
+/******************************************************************************
+ * Main Style layout                                                          *
+ ******************************************************************************/
+
+
+/******************************************************************************
+ * Main Color layout                                                          *
+ ******************************************************************************/
+
+
+/******************************************************************************
+ * Footer Style START                                                         *
+ ******************************************************************************/
+
+ /*****************************************************************************
+ * Footer Color START                                                         *
+ ******************************************************************************/

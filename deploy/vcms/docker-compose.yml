@@ -1,0 +1,16 @@
+version: "2.3"
+
+services:
+  vcms:
+    image: vcms_env
+    container_name: vcms
+    environment:
+     - TZ=Asia/Taipei
+     - DEBIAN_FRONTEND=noninteractive
+    volumes:
+      - /opt/viscovery/vcms:/opt/vcms
+      - /opt/viscovery/models/vcms_anchor_db:/opt/vcms/uploads/pkl
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
+    command: bash -c "service cron start && gunicorn -k gevent --certfile=ssl_certificate/cert.pem --keyfile=ssl_certificate/key.pem -w 8 -b 0.0.0.0:5001 app:app"
